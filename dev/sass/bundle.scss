@@ -1,0 +1,11 @@
+@import 'bootstrap';
+
+$primary-color: red;
+
+h1 {
+  color: $primary-color;
+}
+p {
+  color: black;
+  font-size: 12px;
+}
