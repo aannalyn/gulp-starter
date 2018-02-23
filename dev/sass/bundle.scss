@@ -1,11 +1,23 @@
-@import 'bootstrap';
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
 
-$primary-color: red;
+@import 'vendors';
 
-h1 {
-  color: $primary-color;
-}
-p {
-  color: black;
-  font-size: 12px;
-}
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/animations';
+
+@import 'layout/navigation';
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/sidebar';
+
+@import 'components/buttons';
+@import 'components/carousel';
+@import 'components/loader';
+
+@import 'pages/home';
+
+@import 'themes/theme';
